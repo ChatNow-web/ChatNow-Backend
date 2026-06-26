@@ -2,6 +2,7 @@
 
 Secure real-time chat platform backend built with **Node.js**, **Express**, **Socket.IO**, **MongoDB**, and **Brevo** transactional email.
 
+Health enpoint: live: https://chatnow-pzfl.onrender.com/health
 ---
 
 ## Tech Stack
@@ -56,11 +57,11 @@ JWT_REFRESH_EXPIRY=7d
 FIREBASE_PROJECT_ID=chatnow-xxxxx
 
 # Admin
-ADMIN_EMAIL=harinarayanantr.thoovara@gmail.com
+ADMIN_EMAIL="adminemailid"
 
 # Brevo (transactional email)
 BREVO_API_KEY=<brevo-api-key>
-BREVO_FROM_EMAIL=harinarayanantr.thoovara@gmail.com
+BREVO_FROM_EMAIL="fromemailid"
 
 # CORS
 FRONTEND_URL=http://localhost:5173
